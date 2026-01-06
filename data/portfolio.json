@@ -1,0 +1,70 @@
+[
+    {
+        "id": "vitaglow",
+        "slug": "vitaglow",
+        "title": "VITAGLOW",
+        "category": "Brand Identity",
+        "description": "A comprehensive rebrand for a premium wellness supplement line, focusing on vitality and natural radiance.",
+        "image": "/images/creative/portfolio/vitaglow-main.jpg",
+        "tags": [
+            "Branding",
+            "Packaging",
+            "3D Motion"
+        ],
+        "metrics": {
+            "reach": "500K+",
+            "conversion": "+35%"
+        }
+    },
+    {
+        "id": "raylux",
+        "slug": "raylux",
+        "title": "RAYLUX",
+        "category": "Motion Design",
+        "description": "Futuristic motion graphics for a luxury eyewear campaign, blending light physics with sleek product renders.",
+        "image": "/images/creative/portfolio/raylux-main.jpg",
+        "tags": [
+            "Motion Design",
+            "Product Viz",
+            "Campaign"
+        ],
+        "metrics": {
+            "views": "1.2M",
+            "engagement": "8.5%"
+        }
+    },
+    {
+        "id": "best-bakery",
+        "slug": "best-bakery",
+        "title": "BEST BAKERY",
+        "category": "Web Design",
+        "description": "An artisanal digital storefront for a local bakery, emphasizing tactile textures and warmth.",
+        "image": "/images/creative/portfolio/bakery-main.jpg",
+        "tags": [
+            "Web Design",
+            "UI/UX",
+            "Photography"
+        ],
+        "metrics": {
+            "sales": "+120% Online",
+            "traffic": "15K Monthly"
+        }
+    },
+    {
+        "id": "zynth",
+        "slug": "zynth",
+        "title": "ZYNTH",
+        "category": "Brand Identity",
+        "description": "Identity system for a modular synthesizer brand, visualizing sound waves through geometric typography.",
+        "image": "/images/creative/portfolio/zynth-main.jpg",
+        "tags": [
+            "Branding",
+            "Typography",
+            "Art Direction"
+        ],
+        "metrics": {
+            "community": "10K Members",
+            "launch": "Sold Out"
+        }
+    }
+]

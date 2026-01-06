@@ -1,0 +1,120 @@
+{
+    "hero": {
+        "title_line1": "THRILLS",
+        "title_line2": "MOTION",
+        "based_in": "CANADA",
+        "available": "WORLDWIDE",
+        "role": "PHOTOGRAPHER"
+    },
+    "about": {
+        "heading": "DAVID EZIESHI. VISUAL STORYTELLER BASED IN TORONTO.",
+        "slides": [
+            {
+                "title": "CREATIVE VISION",
+                "desc": "Capturing the unspoken narrative. My work bridges the gap between technical precision and raw emotion."
+            },
+            {
+                "title": "ARTISTIC PHILOSOPHY",
+                "desc": "Minimalism is the art of clarity. Stripping away the noise to reveal the essence of the subject."
+            },
+            {
+                "title": "TECHNICAL MASTERY",
+                "desc": "Uncompromising quality. Leveraging cutting-edge tools to deliver imagery that stands the test of time."
+            }
+        ]
+    },
+    "stats": [
+        {
+            "value": 30,
+            "suffix": "+",
+            "label": "PROJECTS DONE"
+        },
+        {
+            "value": 6,
+            "suffix": "+",
+            "label": "YEARS OF EXPERIENCE"
+        },
+        {
+            "value": 12,
+            "suffix": "+",
+            "label": "RECOGNITIONS"
+        },
+        {
+            "value": 78,
+            "suffix": "%",
+            "label": "HAPPY CLIENTS"
+        }
+    ],
+    "approach": {
+        "steps": [
+            {
+                "num": "01",
+                "title": "DISCOVER",
+                "desc": "Aligning with your core vision and strategic goals."
+            },
+            {
+                "num": "02",
+                "title": "CREATE",
+                "desc": "Executing with precision, artistry, and technical excellence."
+            },
+            {
+                "num": "03",
+                "title": "DELIVER",
+                "desc": "Exceeding expectations with polished, high-impact visuals."
+            }
+        ]
+    },
+    "experience": {
+        "heading": "EXPERIENCE",
+        "subheading": "2018 - PRESENT",
+        "roles": [
+            {
+                "title": "HEAD OF STUDENT MEDIA TEAM",
+                "company": "MOUNTAIN TOP UNIVERSITY",
+                "date": "Sep 2018 - Jul 2021 · 2 yrs 11 mos",
+                "description": [
+                    "Led the university's first student-led media team, recruiting and managing a group of over 12 students to cover campus events and student activities.",
+                    "Directed photo, video, and digital content production, providing full coverage of more than 25 major academic and social events during tenure.",
+                    "Designed and implemented a social media content strategy that grew the university's official Instagram and Facebook engagement by over 40% in one academic year.",
+                    "Mentored team members in reporting, camera operations, editing, and on-air presentation with 5 students later joining professional media organizations."
+                ]
+            },
+            {
+                "title": "EVENT PHOTOGRAPHER",
+                "company": "Freelance (Self-employed)",
+                "date": "Jul 2018 - Present · 7 yrs 7 mos",
+                "location": "Lagos State, Nigeria · On-site",
+                "description": [
+                    "Delivered 150+ projects for clients across weddings, corporate events, and branding campaigns, maintaining a 95% client satisfaction rate.",
+                    "Increased client retention by 40% through high-quality deliverables and exceptional customer service.",
+                    "Edited and produced 200+ videos, achieving an average engagement rate of 20% higher than industry benchmarks for social media content."
+                ]
+            },
+            {
+                "title": "PROGRAM COORDINATOR",
+                "company": "Kaftan TV · Full-time",
+                "date": "Apr 2021 - Aug 2022 · 1 yr 5 mos",
+                "location": "Lagos Mainland, Lagos State, Nigeria",
+                "description": [
+                    "Produced and managed the daily 4 PM news segment, overseeing scripting, editing, and coordination with a team of reporters and interns.",
+                    "Increased online engagement by 20% through audience analysis and data-driven refinements to content delivery and digital strategy.",
+                    "Co-hosted the station's entertainment segment, contributing to a 15% rise in viewership while balancing news production responsibilities.",
+                    "Produced news story packages and secured exclusive interviews.",
+                    "Wrote and presented broadcast-ready scripts daily, improving newsroom efficiency by cutting editing time for producers by 20%.",
+                    "Collaborated with producers and camera crew to deliver high-quality visual storytelling."
+                ]
+            }
+        ]
+    },
+    "bio": {
+        "text_part1": "I craft visual experiences centered on",
+        "highlight1": "minimalist aesthetics",
+        "text_part2": "and",
+        "highlight2": "elegant typography",
+        "text_part3": ". My focus is on storytelling that resonates deeply and endures."
+    },
+    "footer": {
+        "title": "THRILLS MOTION",
+        "copyright_year": "2025"
+    }
+}

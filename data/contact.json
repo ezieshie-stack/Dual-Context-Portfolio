@@ -1,0 +1,49 @@
+{
+    "creative": {
+        "pageTitle": "START A PROJECT.",
+        "subtitle": "Ready to elevate your visual identity? Let's craft something exceptional.",
+        "email": "thrillsmotion@gmail.com",
+        "socials": {
+            "instagram": "https://www.instagram.com/_dthrills/",
+            "linkedin": "https://linkedin.com/in/david-ezieshi",
+            "twitter": "https://twitter.com"
+        },
+        "form": {
+            "title": "CONTACT",
+            "labels": {
+                "name": "Your Name",
+                "email": "Email Address",
+                "message": "Message"
+            },
+            "placeholders": {
+                "name": "John Doe",
+                "email": "john@example.com",
+                "message": "Tell me about your project..."
+            },
+            "buttonText": "Submit Now"
+        }
+    },
+    "ba": {
+        "pageTitle": "Connect & Collaborate",
+        "subtitle": "Open to discussing data strategy, analysis projects, and consulting opportunities.",
+        "email": "Ezieshie@gmail.com",
+        "socials": {
+            "linkedin": "https://linkedin.com/in/david-ezieshi",
+            "github": "https://github.com/davidezieshi"
+        },
+        "form": {
+            "title": "GET IN TOUCH",
+            "labels": {
+                "name": "Full Name",
+                "email": "Work Email",
+                "message": "Project Details"
+            },
+            "placeholders": {
+                "name": "Jane Smith",
+                "email": "jane@company.com",
+                "message": "How can I help you?"
+            },
+            "buttonText": "Send Message"
+        }
+    }
+}

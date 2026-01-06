@@ -1,0 +1,30 @@
+{
+    "creative": {
+        "colors": {
+            "background": "#050505",
+            "primary": "#ffffff",
+            "accent": "#a78bfa",
+            "muted": "rgba(255, 255, 255, 0.4)",
+            "border": "rgba(255, 255, 255, 0.1)"
+        },
+        "fonts": {
+            "heading": "var(--font-geist-sans)",
+            "body": "var(--font-geist-sans)",
+            "mono": "var(--font-geist-mono)"
+        }
+    },
+    "ba": {
+        "colors": {
+            "background": "#09090b",
+            "primary": "#ffffff",
+            "accent": "#3b82f6",
+            "muted": "#a1a1aa",
+            "border": "#27272a"
+        },
+        "fonts": {
+            "heading": "var(--font-geist-sans)",
+            "body": "var(--font-geist-sans)",
+            "mono": "var(--font-geist-mono)"
+        }
+    }
+}

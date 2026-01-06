@@ -1,0 +1,53 @@
+```mermaid
+graph TD
+    %% Global Nodes
+    Entry((Entry / Splash))
+    Bot{Dthrills Bot}
+
+    %% Decisions
+    Entry -->|User Selection| Choice{Choice?}
+    
+    %% Path A: Business Analysis
+    Choice -->|BA Path| BAHome[BA Home]
+    
+    subgraph BA_Context [Business Analysis & Optimization]
+        style BA_Context fill:#f9fafb,stroke:#e5e7eb,color:#374151
+        BAHome -->|View| Churn[Churn Analysis]
+        BAHome -->|View| SLA[SLA Optimization]
+        BAHome -->|View| Fraud[Fraud Detection]
+        BAHome -->|Download| Resume[PDF Resume]
+        
+        Churn -->|Interact| SimulatorA[ROI Simulator]
+        SLA -->|Interact| SimulatorB[Process Engine]
+        Fraud -->|Interact| SimulatorC[Live Monitor Mock]
+    end
+
+    %% Path B: Creative
+    Choice -->|Creative Path| CreativeHome[Creative Home]
+    
+    subgraph Creative_Context [Creative & Design]
+        style Creative_Context fill:#fafafa,stroke:#333,color:#000
+        CreativeHome -->|Browse| Gallery[Visual Gallery]
+        Gallery -->|Hover| Preview[Video Preview]
+        Gallery -->|Click| Modal[Lightweight Modal]
+    end
+
+    %% Cross Linking & Chatbot
+    BAHome -.->|Switch Context| CreativeHome
+    CreativeHome -.->|Switch Context| BAHome
+
+    %% Conversion Flow
+    Bot -->|Ask Question| BA_Context
+    Bot -->|Ask Question| Creative_Context
+    Bot -->|Intent: Hire| Contact[Contact Protocol]
+    Contact -->|Schedule| Calendly
+    Contact -->|Message| EmailForm
+
+    %% Styling
+    classDef plain fill:#fff,stroke:#333,stroke-width:1px;
+    classDef gate fill:#111,stroke:#000,stroke-width:2px,color:#fff;
+    classDef context fill:#e0e7ff,stroke:#4f46e5,stroke-width:2px;
+    
+    class Entry gate;
+    class Choice,Bot plain;
+```
