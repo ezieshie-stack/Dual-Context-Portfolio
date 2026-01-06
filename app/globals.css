@@ -92,3 +92,20 @@ body {
 .text-glow {
   text-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
 }
+
+/* Orb drift animations (GPU-accelerated) */
+@keyframes drift-1 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(18px, -12px); }
+}
+@keyframes drift-2 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(-14px, 10px); }
+}
+@keyframes drift-3 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(10px, 16px); }
+}
+.animate-drift-1 { animation: drift-1 14s ease-in-out infinite; }
+.animate-drift-2 { animation: drift-2 16s ease-in-out infinite; }
+.animate-drift-3 { animation: drift-3 18s ease-in-out infinite; }

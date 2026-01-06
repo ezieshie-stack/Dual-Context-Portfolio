@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import contactData from "@/data/contact.json";
 
 export default function ContactPage() {
     const [formData, setFormData] = useState({

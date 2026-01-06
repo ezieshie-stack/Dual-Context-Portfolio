@@ -126,7 +126,7 @@ export default function BAHeader() {
                     {/* Right side: Resume + Mobile Menu */}
                     <div className="flex items-center gap-2 sm:gap-4">
                         <Link
-                            href="/creative/home"
+                            href="/Thrillsmotions"
                             className="hidden lg:block text-xs font-medium text-white/50 hover:text-white transition-colors px-3 py-1.5 rounded-full border border-white/10 hover:border-white/25"
                         >
                             Switch to Creative →
@@ -164,9 +164,9 @@ export default function BAHeader() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -10 }}
                         transition={{ duration: 0.2 }}
-                        className="fixed top-16 left-0 right-0 z-40 md:hidden"
+                        className="fixed top-16 left-0 right-0 z-[100] md:hidden"
                     >
-                        <div className="mx-4 p-4 rounded-2xl glass border border-white/10">
+                        <div className="mx-4 p-4 rounded-2xl bg-zinc-900/95 backdrop-blur-xl border border-white/10 shadow-2xl">
                             <nav className="flex flex-col gap-3">
                                 <Link
                                     href="/ba/home"
@@ -194,7 +194,7 @@ export default function BAHeader() {
                                 </Link>
                                 <hr className="border-white/10" />
                                 <Link
-                                    href="/creative/home"
+                                    href="/Thrillsmotions"
                                     onClick={() => setMobileMenuOpen(false)}
                                     className="px-4 py-2 rounded-lg text-sm font-medium text-white/50"
                                 >

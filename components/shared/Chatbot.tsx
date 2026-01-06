@@ -1,22 +1,12 @@
 "use client";
 
 import { INTENT_OPTIONS, DEPTH_OPTIONS, CREATIVE_INTENT_OPTIONS } from "@/lib/personas";
+import { Intent, Depth } from "@/lib/logging/types";
 import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
 
 // Types
-type Intent =
-    | 'explore_projects'
-    | 'role_fit'
-    | 'technical_dive'
-    | 'recreate_project'
-    | 'testing'
-    | 'consulting'
-    | 'resume_contact';
-
-type Depth = 'overview' | 'walkthrough' | 'detailed';
-
 type OnboardingStep = 'greeting' | 'intent' | 'depth' | 'chatting';
 
 interface Message {
@@ -385,6 +375,12 @@ export default function Chatbot() {
             testing: "Tell me about the testing and validation approaches used in David's projects",
             consulting: "What consulting services does David offer and what value can he provide?",
             resume_contact: "How can I contact David or get his resume?",
+            // Creative intents
+            creative_experience: "Tell me about David's creative experience and past work",
+            creative_rates: "What are David's rates and pricing for creative services?",
+            creative_process: "Walk me through David's creative process",
+            creative_services: "What creative services does David offer?",
+            creative_availability: "Is David available for collaboration and what's his timeline?",
         };
         return prompts[int];
     };
